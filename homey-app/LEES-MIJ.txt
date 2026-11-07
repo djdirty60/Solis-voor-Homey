@@ -1,7 +1,10 @@
-SOLIS VOOR HOMEY - versie 3.63.0 (v134)
+SOLIS VOOR HOMEY - versie 3.63.1 (v135)
 
 Installeren (Terminal op de Mac, met de Homey CLI):
-unzip -oq Solis-voor-Homey-v134.zip -d app && cd app && npm install && homey app install
+unzip -oq Solis-voor-Homey-v135.zip -d app && cd app && npm install && homey app install
+
+Nieuw in 3.63.1:
+- Dashboard, kaart "Instellingen: Sturing en apparaten": de prijsgrenzen "Uit onder" en "Geen export onder" staan er alleen nog bij een dynamisch contract (bij een vast contract doen ze niets).
 
 Nieuw in 3.63.0 (nog verder afgeslankt):
 - Weggehaald: SolisCloud-koppeling, Vattenfall-bestand importeren (en de factuur-vulhulp uit dat bestand), de demo-stand, de Engelse vertaling (de app is nu alleen Nederlands) en het sjabloon voor andere omvormermerken.
