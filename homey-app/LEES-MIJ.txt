@@ -1,7 +1,13 @@
-SOLIS VOOR HOMEY - versie 3.61.2 (v132)
+SOLIS VOOR HOMEY - versie 3.62.0 (v133)
 
 Installeren (Terminal op de Mac, met de Homey CLI):
-unzip -oq Solis-voor-Homey-v132.zip -d app && cd app && npm install && homey app install
+unzip -oq Solis-voor-Homey-v133.zip -d app && cd app && npm install && homey app install
+
+Nieuw in 3.62.0 (afgeslankt, minder geheugen):
+- Weggehaald: de plaatjes voor Kodi en de tv (dashboard-add-on, screensaver, Android TV en Apple TV), de Lucent-gegevens en de kinderpagina. Dat tekenen kostte ongeveer 30 MB.
+- Weggehaald: gas en water (meterstanden, oude dagen uit Homey, lekmelding).
+- De flow-kaarten "Ochtendkaart klaar" en "Maandrapport klaar" geven alleen nog tekst, geen plaatje.
+- Gebleven: omvormer uitlezen en sturen, negatieve prijs, meldingen, het dashboard op telefoon en computer (ook onderweg), apparaten volgen en schakelen, en de LED-ring.
 
 Nieuw in 3.61.2:
 - "Wasmachine is klaar" kwam te vroeg (na het opwarmen, terwijl hij nog een uur draaide). Sinds 3.61.0 las de app het vermogen van gevolgde apparaten maar eens per 10 minuten. Nu weer elke 20 seconden vers.
