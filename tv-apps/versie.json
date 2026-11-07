@@ -12,8 +12,8 @@
     "nieuw": "Meldt nieuwe versies. Kids-vraag: Menu of omhoog stopt de vraag."
   },
   "homey": {
-    "version": "3.62.0",
-    "zip": "https://raw.githubusercontent.com/djdirty60/Solis-Kodi/main/homey-app/Solis-voor-Homey-v133.zip",
-    "nieuw": "Afgeslankt: zonder tv-plaatjes en gas/water, veel minder geheugen."
+    "version": "3.63.0",
+    "zip": "https://raw.githubusercontent.com/djdirty60/Solis-Kodi/main/homey-app/Solis-voor-Homey-v134.zip",
+    "nieuw": "Nog verder afgeslankt; je gegevens blijven bewaard."
   }
 }

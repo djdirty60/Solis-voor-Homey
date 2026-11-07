@@ -1,7 +1,11 @@
-SOLIS VOOR HOMEY - versie 3.62.0 (v133)
+SOLIS VOOR HOMEY - versie 3.63.0 (v134)
 
 Installeren (Terminal op de Mac, met de Homey CLI):
-unzip -oq Solis-voor-Homey-v133.zip -d app && cd app && npm install && homey app install
+unzip -oq Solis-voor-Homey-v134.zip -d app && cd app && npm install && homey app install
+
+Nieuw in 3.63.0 (nog verder afgeslankt):
+- Weggehaald: SolisCloud-koppeling, Vattenfall-bestand importeren (en de factuur-vulhulp uit dat bestand), de demo-stand, de Engelse vertaling (de app is nu alleen Nederlands) en het sjabloon voor andere omvormermerken.
+- Je gegevens blijven bewaard: dagen die eerder uit SolisCloud of Vattenfall kwamen staan nog gewoon in de geschiedenis.
 
 Nieuw in 3.62.0 (afgeslankt, minder geheugen):
 - Weggehaald: de plaatjes voor Kodi en de tv (dashboard-add-on, screensaver, Android TV en Apple TV), de Lucent-gegevens en de kinderpagina. Dat tekenen kostte ongeveer 30 MB.
