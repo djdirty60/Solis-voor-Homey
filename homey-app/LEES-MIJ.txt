@@ -1,7 +1,11 @@
-SOLIS VOOR HOMEY - versie 3.61.1 (v131)
+SOLIS VOOR HOMEY - versie 3.61.2 (v132)
 
 Installeren (Terminal op de Mac, met de Homey CLI):
-unzip -oq Solis-voor-Homey-v131.zip -d app && cd app && npm install && homey app install
+unzip -oq Solis-voor-Homey-v132.zip -d app && cd app && npm install && homey app install
+
+Nieuw in 3.61.2:
+- "Wasmachine is klaar" kwam te vroeg (na het opwarmen, terwijl hij nog een uur draaide). Sinds 3.61.0 las de app het vermogen van gevolgde apparaten maar eens per 10 minuten. Nu weer elke 20 seconden vers.
+- Ook bij het schakelen van stekkers kijkt de app weer naar de actuele stand.
 
 Nieuw in 3.61.1:
 - Nog minder geheugen bij tv/Kodi-plaatjes: de pixels staan meteen in PNG-vorm (geen tweede buffer van 6 MB meer).
